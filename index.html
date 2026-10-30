@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5eee7">
+<title>Haziq & Laveza — Wedding Invitation</title>
+<style>
+:root{--bg:#f7f1eb;--paper:#fffaf5;--ink:#624936;--muted:#927d6c;--rose:#b78e79;--line:#e8d9cd;--sage:#a7a88b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding:30px 18px;position:relative;overflow:hidden;background:linear-gradient(135deg,#f9f4ef,#eee1d5 55%,#f8f2ec)}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid #c7aa9570;border-radius:50%;width:min(85vw,650px);height:min(85vw,650px);pointer-events:none}.hero:after{width:min(72vw,540px);height:min(72vw,540px)}
+.hero-inner{position:relative;z-index:1;max-width:650px;padding:58px 24px;border:1px solid #c6a58c80;background:#fffaf54d;box-shadow:0 18px 60px #795b4510}
+.flower{color:var(--sage);font-size:26px;letter-spacing:12px}.eyebrow{font:10px Arial,sans-serif;letter-spacing:.27em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(48px,10vw,82px);font-weight:400;line-height:1.02;margin:24px 0 12px;color:#674b38}.amp{font-style:italic;color:var(--rose);font-size:.72em}
+.script{font-style:italic;font-size:clamp(29px,6vw,43px);color:#a57e68}.thin{height:1px;width:85px;background:#c8a991;margin:23px auto}
+p{line-height:1.9}.intro{max-width:440px;margin:20px auto;color:#806c5c;font-size:15px}
+.btn{display:inline-block;background:var(--rose);color:white;text-decoration:none;padding:13px 23px;border-radius:30px;border:0;letter-spacing:.04em;font:12px Arial,sans-serif;cursor:pointer;margin-top:15px;box-shadow:0 6px 18px #9e77652b}
+main{max-width:900px;margin:auto;padding:0 20px 50px}.section{text-align:center;padding:75px 0 15px}.label{font:10px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:#a08470}.section h2{font-size:clamp(31px,6vw,45px);font-weight:400;margin:12px 0 18px;color:#674b38}.copy{max-width:620px;margin:0 auto;color:#806f60;font-size:15px}.parent{font-size:14px;letter-spacing:.08em;color:#917866}
+.events{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:32px 0}.event{background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:27px 13px;box-shadow:0 10px 28px #80634c0a}.event .n{font:10px Arial,sans-serif;letter-spacing:.2em;color:#b18d77}.event h3{font-weight:400;font-size:27px;margin:12px 0;color:#674b38}.event .date{font-size:16px;color:#9b7965}.event .day,.event .time{font:10px Arial,sans-serif;letter-spacing:.1em;color:#988879;margin-top:10px}
+.countdown{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:27px 0}.unit{background:#fffaf5;border:1px solid var(--line);border-radius:12px;padding:13px 12px;min-width:76px}.unit strong{display:block;font-size:27px;font-weight:400;color:#8e6b57}.unit span{font:9px Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;color:#9a8879}
+.venue{margin:55px 0 0;text-align:center;background:#eee3d9;border:1px solid #e3d1c3;border-radius:20px;padding:42px 18px}.venue h2{font-size:36px;font-weight:400;margin:12px}.venue p{color:#806c5c}.map{display:inline-block;color:#8b6754;border:1px solid #c8a991;padding:11px 18px;border-radius:25px;text-decoration:none;font:11px Arial,sans-serif;letter-spacing:.1em}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:550px;margin:26px auto}.gallery div{min-height:130px;border-radius:12px;background:linear-gradient(145deg,#e6d6c9,#f8f2eb 55%,#d9d1bd);display:grid;place-items:center;color:#a18a75;font-size:28px}
+footer{text-align:center;padding:55px 15px 30px;color:#927d6c;font-size:12px;letter-spacing:.08em}footer strong{display:block;font-size:27px;font-style:italic;font-weight:400;color:#795b48;margin:12px}
+.reveal{opacity:0;transform:translateY(15px);transition:.8s}.reveal.show{opacity:1;transform:none}
+@media(max-width:650px){.events{grid-template-columns:1fr;max-width:420px;margin:25px auto}.event{padding:23px}.hero-inner{padding:46px 17px}.section{padding-top:58px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="hero-inner">
+  <div class="flower">✿ ❧ ✿</div><div class="eyebrow">The wedding celebration of</div>
+  <h1>Haziq Gill<br><span class="amp">&</span></h1><div class="script">Laveza</div>
+  <div class="thin"></div><div class="eyebrow">Together with their families</div>
+  <p class="parent">Mr. &amp; Mrs. Waheed ul Haq</p>
+  <p class="intro">With the blessings of Almighty Allah, the Gill family warmly invites you to celebrate the beginning of a beautiful new journey.</p>
+  <div class="eyebrow">24 — 26 December 2026</div>
+  <a class="btn" href="#invitation">Open Invitation&nbsp; →</a>
+ </div>
+</header>
+<main id="invitation">
+ <section class="section reveal"><div class="label">A special invitation</div><h2>With love &amp; joy</h2>
+ <p class="copy">With the blessings of Almighty Allah, we joyfully invite you to celebrate the beginning of a beautiful new journey as Haziq Gill and Laveza unite in marriage. Your presence, prayers and blessings will make these precious moments even more memorable. We look forward to celebrating with you.</p>
+ <div class="script" style="margin-top:22px">With love,</div><div class="parent">The Groom's Family</div></section>
+ <section class="section reveal"><div class="label">Three days of celebration</div><h2>Wedding Events</h2>
+ <div class="events">
+  <article class="event"><div class="n">01</div><h3>Mehndi</h3><div class="day">Thursday</div><div class="date">24 December 2026</div><div class="time">Time to be announced</div></article>
+  <article class="event"><div class="n">02</div><h3>Barat</h3><div class="day">Friday</div><div class="date">25 December 2026</div><div class="time">Time to be announced</div></article>
+  <article class="event"><div class="n">03</div><h3>Walima</h3><div class="day">Saturday</div><div class="date">26 December 2026</div><div class="time">Time to be announced</div></article>
+ </div></section>
+ <section class="section reveal"><div class="label">The big day is coming</div><h2>Countdown</h2>
+ <div class="countdown"><div class="unit"><strong id="d">--</strong><span>Days</span></div><div class="unit"><strong id="h">--</strong><span>Hours</span></div><div class="unit"><strong id="m">--</strong><span>Minutes</span></div><div class="unit"><strong id="s">--</strong><span>Seconds</span></div></div>
+ <p class="copy">Three days of love. Three moments of forever.</p></section>
+ <section class="venue reveal"><div class="label">The celebration venue</div><h2>Gill House</h2><p>Ata Town, Jahanian</p><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Gill+House%2C+Ata+Town%2C+Jahanian">Open in Google Maps ↗</a></section>
+ <section class="section reveal"><div class="label">Two hearts, one story</div><h2>Our Journey</h2><div class="gallery"><div>✧</div><div>❀</div><div>♡</div><div>✿</div></div><p class="copy"><i>“Some moments are not just events; they are the beginning of a lifetime.”</i></p></section>
+ <section class="section reveal"><div class="label">Until we celebrate together</div><h2>RSVP</h2><p class="copy">We kindly request you to save the dates. RSVP details and contact information will be shared soon.</p><span class="btn" style="display:inline-block;opacity:.8">Contact details to follow</span></section>
+</main>
+<footer><div class="flower">❧</div><strong>Haziq &amp; Laveza</strong>THANK YOU FOR BEING A PART OF OUR SPECIAL JOURNEY<br><br><span>24 — 26 DECEMBER 2026</span></footer>
+<script>
+const target=new Date('2026-12-24T18:00:00');
+function tick(){let x=Math.max(0,target-new Date()),v={d:Math.floor(x/86400000),h:Math.floor(x/3600000)%24,m:Math.floor(x/60000)%60,s:Math.floor(x/1000)%60};Object.keys(v).forEach(k=>document.getElementById(k).textContent=String(v[k]).padStart(2,'0'))}tick();setInterval(tick,1000);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+</script>
+</body></html>
